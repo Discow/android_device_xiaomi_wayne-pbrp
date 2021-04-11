@@ -23,9 +23,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/embedded.mk)
 # Inherit some common Omni+PB stuff.
 $(call inherit-product, vendor/pb/config/common.mk)
 
-# Inherit language packages
-$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
-
 PRODUCT_PROPERTY_OVERRIDES += \
     sys.usb.controller=a800000.dwc3 \
     sys.usb.rndis.func.name=rndis_bam \
