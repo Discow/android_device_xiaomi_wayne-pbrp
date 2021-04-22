@@ -16,3 +16,5 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_wayne.mk
+
+COMMON_LUNCH_CHOICES := omni_wayne-eng

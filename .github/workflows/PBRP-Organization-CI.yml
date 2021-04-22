@@ -14,7 +14,7 @@ on:
     types: [started]
 
 env:
-  MANIFEST: "https://github.com/PitchBlackRecoveryProject/manifest_pb -b android-9.0"
+  MANIFEST: "https://github.com/PitchBlackRecoveryProject/manifest_pb -b android-10.0"
   BUILD_RELEASE_TYPE: ${{ github.event.inputs.DEPLOY_TYPE }}
   CHANGELOG: ${{ github.event.inputs.ChangeLogs }}
   BOT_API: ${{ secrets.BOT_API }}
